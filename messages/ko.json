@@ -1,0 +1,51 @@
+{
+    "Projects" :
+    {
+        "project1" : 
+            {
+            "id": 1,
+            "title": "리액트로 만든 첫 프로젝트",
+            "des": "This page was created to study React and Redux. It was for my cousin's cafe ",
+            "img": "/project1.png",
+            "iconLists": ["/re.svg", "/redux.svg" ],
+            "link": "https://nickelback53.github.io/"
+            },
+        "project2" :     
+            {
+            "id": 2,
+            "title": "Unity - 2D RPG Game",
+            "des": "This is a game that I am making with friends who like games and meet up twice a week.",
+            "img": "/project2.gif",
+            "iconLists": ["/unity.svg"],
+            "link": "https://github.com/solduma/EldenSquare"
+            },
+        "project3" :                 
+            {
+            "id": 3,
+            "title": "React Portfolio",
+            "des": "I've been wanting to try out external libraries, css animation, FontAwesome icons, Material UI , and React to recreate it.",
+            "img": "/project3.png",
+            "iconLists": ["/re.svg", "/mui.svg", "/fontawesome.svg"],
+            "link": "https://github.com/Nickelback53/PortfolioReact"
+            },
+        "project4" :     
+            {
+            "id": 4,
+            "title": "Animated Apple Iphone 3D Website",
+            "des": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+            "img": "/project4.png",
+            "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+            "link": "https://github.com/adrianhajdin/iphone"
+            },
+        "project5" :     
+            {
+            "id": 5,
+            "title": "Animated Apple Iphone 3D Website",
+            "des": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+            "img": "/project5.png",
+            "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+            "link": "https://github.com/adrianhajdin/iphone"
+            }
+        
+    }
+}
