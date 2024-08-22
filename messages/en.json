@@ -166,20 +166,20 @@
         "approach1"  :
         {
             "id": 1,
-            "title": "Planning & Strategy",
-            "desc": "I'll discuss things like site structure, navigation, and content requirements."
+            "title": "Finding & Selection",
+            "desc": "Before I start learning new programming languages, I choose a field that interests me and use Google Trends to find the most popular languages ​​or frameworks in that field."
         },
         "approach2"  :
         {
             "id": 2,
-            "title": "Development & Progress Update",
-            "desc": ""
+            "title": "Development & Doing",
+            "desc": "I create a personal project using the selected language. For the backend, I add CRUD, and for the frontend, I add various latest libraries to create a personal homepage."
         },
         "approach3"  :
         {
             "id": 3,
-            "title": "Development & Launch",
-            "desc": "I constantly try to improve"
+            "title": "Goal",
+            "desc": "Once you become somewhat familiar with the language or framework, you can immediately implement something small that you ultimately wanted to do."
         }
 
     }  

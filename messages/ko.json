@@ -166,20 +166,20 @@
         "approach1"  :
         {
             "id": 1,
-            "title": "Planning & Strategy",
-            "desc": "hello 1"
+            "title": "Finding & Selection",
+            "desc": "저는 새로운 프로그래밍 공부를 하기전 제가 관심이 가는 분야를 선정하고 구글 트렌드에서 그 분야의 언어나 프레임워크 중에 가장 인기가 많은 것을 선정합니다. "
         },
         "approach2"  :
         {
             "id": 2,
-            "title": "Development & Progress Update",
-            "desc": ""
+            "title": "Development & Doing",
+            "desc": "저는 선정된 언어로 바로 개인 프로젝트를 통해 만들어 봅니다. 백앤드라면 CRUD를, 프론트앤드라면 최신 라이브러리를 다양하게 추가해서 개인 홈페이지를 만듭니다."
         },
         "approach3"  :
         {
             "id": 3,
-            "title": "Development & Launch",
-            "desc": "I constantly try to improve"
+            "title": "Goal",
+            "desc": "그 언어나 프레임워크가 어느정도 익숙해지면 궁극적으로 해보고 싶었던 것을 작지만 바로 구현합니다."
         }
 
     }          

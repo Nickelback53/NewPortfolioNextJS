@@ -9,7 +9,7 @@ const Approach= () => {
   return (
     <section className="w-full py-20">
         <h1 className="heading">
-            My <span className="text-purple">approach</span>
+            My <span className="text-purple">approach</span> to development
         </h1> 
         <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
             <Card 
