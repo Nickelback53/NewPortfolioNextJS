@@ -2,8 +2,11 @@ import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import {FaLocationArrow} from 'react-icons/fa6'
+import LocalSwitcher from './ui/LocalSwitcher'
+import { useTranslations } from 'next-intl'
 
 const Hero = () => {
+    const t = useTranslations("hero");
   return (
     <div className='pb-20 pt-36'>
         <div>
@@ -28,12 +31,12 @@ const Hero = () => {
                 </h2>
                 <TextGenerateEffect
                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into Seamless Experiences'
+                    words={t('hero.title')}
                 />
 
                 <p className='text-center md:tracking-wider
                 mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I&apos;m Taeho, a Next.js Developer based in South Korea.
+                    {t('hero.desc')}
                 </p>
 
                 <a href='#about'>

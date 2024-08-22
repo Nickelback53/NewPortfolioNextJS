@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import LocalSwitcher from "./LocalSwitcher";
 
 export const FloatingNav = ({
   navItems,
@@ -72,6 +73,7 @@ export const FloatingNav = ({
             <span className="text-sm !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
+        <LocalSwitcher/>
       </motion.div>
     </AnimatePresence>
   );

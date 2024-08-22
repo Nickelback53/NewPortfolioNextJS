@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
-
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
+import { useTranslations } from 'next-intl'
 
 const Approach= () => {
+    const t = useTranslations("approach");
   return (
     <section className="w-full py-20">
         <h1 className="heading">
@@ -12,9 +13,9 @@ const Approach= () => {
         </h1> 
         <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
             <Card 
-                title="Sheetal is Nisha" 
+                title={t('approach1.title')}
                 icon={<AceternityIcon order="Phase 1" />}
-                description="hello"
+                description={t('approach1.desc')}
                 >
                 <CanvasRevealEffect
                     animationSpeed={5.1}
@@ -22,9 +23,9 @@ const Approach= () => {
                 />
             </Card>
             <Card 
-                title="Nisha is Munni" 
+                title={t('approach2.title')}
                 icon={<AceternityIcon order="Phase 2"/>}
-                description="hello"
+                description={t('approach2.desc')}
                 >
                 <CanvasRevealEffect
                     animationSpeed={3}
@@ -38,9 +39,9 @@ const Approach= () => {
         
             </Card>
             <Card 
-                title="Munni is Aditi" 
+                title={t('approach3.title')}
                 icon={<AceternityIcon order="Phase 3"/>}
-                description="hello"
+                description={t('approach3.desc')}
                 >
                 <CanvasRevealEffect
                     animationSpeed={3}

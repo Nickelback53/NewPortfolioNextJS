@@ -17,6 +17,7 @@ export const BentoGrid = ({
   className?: string;
   children?: React.ReactNode;
 }) => {
+  
   return (
     <div
       className={cn(
@@ -68,7 +69,7 @@ export const BentoGridItem = ({
       )}
       style={{
         background: 'rgb(2,0,36)',
-        backgroundcolor: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,61,111,1) 25%, rgba(0,212,255,1) 100%)',
+        backgroundColor: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,61,111,1) 25%, rgba(0,212,255,1) 100%)',
       }}
     >
       <div className={`${id === 6 && 'flex justify-center'} h-full `}>

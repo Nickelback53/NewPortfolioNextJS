@@ -1,5 +1,5 @@
 "use client";
-import { projects } from '@/data'
+
 import React from 'react'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { PinContainer } from './ui/3d-pin'
@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl'
 const RecentProjects = () => {
   const t = useTranslations("Projects");
   const keys = ['project1', 'project2', 'project3', 'project4', 'project5'] as const;
-  const keys2 = ['project1.iconList', 'project2.iconList', 'project3.iconList', 'project4.iconList', 'project5.iconList'] as const;
+//   const keys2 = ['project1.iconList', 'project2.iconList', 'project3.iconList', 'project4.iconList', 'project5.iconList'] as const;
 
   return (
     <div className='py-20' id='projects'>

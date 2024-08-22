@@ -1,11 +1,90 @@
 {
+    "hero" :{ 
+        "hero"  :
+        {
+            "id": 1,
+            "title": "사용자를 생각하는 기술 , 미래를 열어가는 개발자",
+            "desc": "안녕하세요, 저는 한국에 거주하는 풀스택 개발자 이태호입니다."
+        }
+
+    },         
+    "gridItems" :{ 
+        "gridItem1"  :
+            {
+            "id": 1,
+            "title": "저는 Github, Slack 같은 다양 툴을 활용하여 동료들과 협업하고 소통하는데 능통합니다.",
+            "description": "",
+            "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+            "imgClassName": "w-full h-full",
+            "titleClassName": "justify-end",
+            "img": "/b1.svg",
+            "spareImg": ""
+            },
+        "gridItem2"  :
+            {
+            "id": 2,
+            "title": "시간에 구애받지 않고 일하는걸 좋아합니다. 주말 휴일에도 꾸준히 코드를 봅니다.",
+            "description": "",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+            "imgClassName": "",
+            "titleClassName": "justify-start",
+            "img": "",
+            "spareImg": ""
+            },
+        "gridItem3"  :
+            {
+            "id": 3,
+            "title": "My tech stack",
+            "description": "I constantly try to improve",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+            "imgClassName": "",
+            "titleClassName": "justify-center",
+            "img": "",
+            "spareImg": ""
+            },
+        "gridItem4"  :
+            {
+            "id": 4,
+            "title": "최신 기술에 관심이 많아 틈날때마다 직접 구현해 봅니다.",
+            "description": "",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+            "imgClassName": "",
+            "titleClassName": "justify-start",
+            "img": "/grid.svg",
+            "spareImg": "/b4.svg"
+            },
+        "gridItem5"  :
+            {
+            "id": 5,
+            "title": "최근에 flutter를 통해 하이브리드 앱을 개발하고 있습니다.",
+            "description": "The Inside Scoop",
+            "className": "md:col-span-3 md:row-span-2",
+            "imgClassName": "absolute right-0 bottom-0 md:w-96 w-60",
+            "titleClassName": "justify-center md:justify-start lg:justify-center",
+            "img": "/b5.png",
+            "spareImg": "/grid.svg"
+            },
+        "gridItem6"  :
+            {
+            "id": 6,
+            "title": "팀 프로젝트, 협업이 필요하시면 이메일로 연락주세요.",
+            "description": "",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+            "imgClassName": "",
+            "titleClassName": "justify-center md:max-w-full max-w-60 text-center",
+            "img": "",
+            "spareImg": ""
+            }
+
+    },
+
     "Projects" :
     {
         "project1" : 
             {
             "id": 1,
             "title": "리액트로 만든 첫 프로젝트",
-            "des": "This page was created to study React and Redux. It was for my cousin's cafe ",
+            "des": "React 와 Redux 를 공부하기 위해서 만들었습니다.",
             "img": "/project1.png",
             "iconLists": ["/re.svg", "/redux.svg" ],
             "link": "https://nickelback53.github.io/"
@@ -14,7 +93,7 @@
             {
             "id": 2,
             "title": "Unity - 2D RPG Game",
-            "des": "This is a game that I am making with friends who like games and meet up twice a week.",
+            "des": "게임 좋아하는 친구들과 주 2회 만나서 만들던 게임 프로젝트 입니다.",
             "img": "/project2.gif",
             "iconLists": ["/unity.svg"],
             "link": "https://github.com/solduma/EldenSquare"
@@ -23,7 +102,7 @@
             {
             "id": 3,
             "title": "React Portfolio",
-            "des": "I've been wanting to try out external libraries, css animation, FontAwesome icons, Material UI , and React to recreate it.",
+            "des": "css animation, FontAwesome icons, Material UI 와 같은 외부 라이브러리 사용에 친숙해지기 위해서 만들었습니다.",
             "img": "/project3.png",
             "iconLists": ["/re.svg", "/mui.svg", "/fontawesome.svg"],
             "link": "https://github.com/Nickelback53/PortfolioReact"
@@ -31,21 +110,77 @@
         "project4" :     
             {
             "id": 4,
-            "title": "Animated Apple Iphone 3D Website",
-            "des": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+            "title": "PUBG 통계",
+            "des": "같이 베그를 하는 맴버들과 정확한 데이터 확인을 위해서 만들었습니다.",
             "img": "/project4.png",
-            "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-            "link": "https://github.com/adrianhajdin/iphone"
+            "iconLists": ["/next.svg", "/tail.svg", "/ts.svg"],
+            "link": "https://nextjs-pubgstat.vercel.app/"
             },
         "project5" :     
             {
             "id": 5,
-            "title": "Animated Apple Iphone 3D Website",
-            "des": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+            "title": "NextJs Portfolio",
+            "des": "Intersection Observer, notion API, lottie player 을 사용한 포트폴리오로 디자인을 고려해서 다시 만들었습니다.",
             "img": "/project5.png",
-            "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-            "link": "https://github.com/adrianhajdin/iphone"
+            "iconLists": ["/next.svg", "/tail.svg", "/ts.svg",  "/notion.svg"],
+            "link": "https://portfolionext-7cloud.vercel.app/"
             }
         
-    }
+    },
+    "workExperience" : 
+    {
+        "work1" : 
+        {
+          "id": 1,
+          "title": "백앤드 개발자",
+          "desc": "빅데이터 시각화 솔루션 개발 지원. 다양한 통계 쿼리, 스프링을 통한 솔루션 페이지 개발",
+          "className": "md:col-span-2",
+          "thumbnail": "/exp1.svg"
+        },
+        "work2" : 
+        {
+          "id": 2,
+          "title": "웹앱 개발 - Springboot",
+          "desc": "스프링부트를 사용한 웹앱 이용한 소규모 금융 페이지. 사용자 - 안드로이드앱, 관리자 - 웹",
+          "className": "md:col-span-2", 
+          "thumbnail": "/exp2.svg"
+        },
+        "work3" : 
+        {
+          "id": 3,
+          "title": "데이터 수집을 위한 버스 승무사원 앱",
+          "desc": "Java를 이용한 데이터 확인용 웹사이트, C와 오라클을 사용하여 승무사원앱을 위한 서비스 개발",
+          "className": "md:col-span-2", 
+          "thumbnail": "/exp3.svg"
+        },
+        "work4" : 
+        {
+          "id": 4,
+          "title": "여행중개 플레폼 백앤드 개발",
+          "desc": "C 언어와 오라클을 사용하여 여행중계 플레폼 서비스 개발, 버스 중계를 위한 신규 서비스 개발",
+          "className": "md:col-span-2",
+          "thumbnail": "/exp4.svg"
+        }
+    },
+    "approach" :{ 
+        "approach1"  :
+        {
+            "id": 1,
+            "title": "Planning & Strategy",
+            "desc": "hello 1"
+        },
+        "approach2"  :
+        {
+            "id": 2,
+            "title": "Development & Progress Update",
+            "desc": ""
+        },
+        "approach3"  :
+        {
+            "id": 3,
+            "title": "Development & Launch",
+            "desc": "I constantly try to improve"
+        }
+
+    }          
 }
