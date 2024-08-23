@@ -3,8 +3,8 @@
         "hero"  :
         {
             "id": 1,
-            "title": "Create Innovation and Design Experiences with Code",
-            "desc": "Hi, I'm Taeho, a Full-stack Developer based in South Korea."
+            "title": "ユーザーを考える技術、未来を開いていく      開発者",
+            "desc": "初めてお会いします、私は韓国に居住するフルスタック開発者イ・テホです。"
         }
 
     },     
@@ -12,7 +12,7 @@
         "gridItem1"  :
         {
             "id": 1,
-            "title": "I am good at collaborating and communicating with colleagues. ",
+            "title": "は同僚と協力したりコミュニケーションをとったりするのが得意です。",
             "description": "",
             "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
             "imgClassName": "w-full h-full",
@@ -23,7 +23,7 @@
         "gridItem2"  :
         {
             "id": 2,
-            "title": "I'm very flexible with time zone communications",
+            "title": "時間にこだわらず働くのが好きです。週末の休日にも着実にコードを見てください。",
             "description": "",
             "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
             "imgClassName": "",
@@ -45,7 +45,7 @@
         "gridItem4"  :
         {
             "id": 4,
-            "title": "Tech enthusiast with a passion for development.",
+            "title": "最新の開発技術に関心が多く、隙間ごとに直接実装してみます。",
             "description": "",
             "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
             "imgClassName": "",
@@ -56,7 +56,7 @@
         "gridItem5"  :
         {
             "id": 5,
-            "title": "Currently building a Hybrid App with flutter",
+            "title": "私は最近flutterを使ってハイブリッドアプリを開発しています。",
             "description": "The Inside Scoop",
             "className": "md:col-span-3 md:row-span-2",
             "imgClassName": "absolute right-0 bottom-0 md:w-96 w-60",
@@ -67,7 +67,7 @@
         "gridItem6"  :
         {
             "id": 6,
-            "title": "Do you want to start a project together?",
+            "title": "チームプロジェクト、コラボレーションが必要な場合は、メールでご連絡ください。",
             "description": "",
             "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
             "imgClassName": "",
@@ -83,8 +83,8 @@
         "project1" : 
         {
             "id": 1,
-            "title": "My first project using React",
-            "des": "This page was created to study React and Redux. It was for my cousin's cafe ",
+            "title": "リアクトで作られた最初のプロジェクト",
+            "des": "ReactとReduxを勉強するために作成しました。",
             "img": "/project1.png",
             "iconLists": ["/re.svg", "/redux.svg" ],
             "link": "https://nickelback53.github.io/"
@@ -93,7 +93,7 @@
         {
             "id": 2,
             "title": "Unity - 2D RPG Game",
-            "des": "This is a game that I am making with friends who like games and meet up twice a week.",
+            "des": "これはゲーム好きで週に2回集まる友達と一緒に作っているゲームです。",
             "img": "/project2.gif",
             "iconLists": ["/unity.svg"],
             "link": "https://github.com/solduma/EldenSquare"
@@ -102,7 +102,7 @@
         {
             "id": 3,
             "title": "React Portfolio",
-            "des": "I've been wanting to try out external libraries, css animation, FontAwesome icons, Material UI , and React to recreate it.",
+            "des": "これを再現するために、外部ライブラリ、CSS アニメーション、FontAwesome アイコン、Material UI、React を試してみたかったのです。",
             "img": "/project3.png",
             "iconLists": ["/re.svg", "/mui.svg", "/fontawesome.svg"],
             "link": "https://github.com/Nickelback53/PortfolioReact"
@@ -111,7 +111,7 @@
         {
             "id": 4,
             "title": "PUBG Statistics",
-            "des": "I made it to check accurate data with members who play pubg together.",
+            "des": "一緒にPUBGをプレイするメンバーと正確なデータを確認できるように作りました。",
             "img": "/project4.png",
             "iconLists": ["/next.svg", "/tail.svg", "/ts.svg"],
             "link": "https://nextjs-pubgstat.vercel.app/"
@@ -120,7 +120,7 @@
         {
             "id": 5,
             "title": "NextJs Portfolio",
-            "des": "Using Intersection Observer, notion API, lottie player, portfolio is created by considering design ",
+            "des": "ntersection Observer、notion API、lottie playerを使用し、デザイン性を考慮してポートフォリオを作成します。 ",
             "img": "/project5.png",
             "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/notion.svg"],
             "link": "https://portfolionext-7cloud.vercel.app/"
@@ -132,8 +132,8 @@
         "work1" : 
         {
           "id": 1,
-          "title": "OLAP Firm as A Backend Engineer",
-          "desc": "Assisted in the development of a big data visualizing solution using spring and SQL query.",
+          "title": "OLAP 企業でバックエンド エンジニアとして活躍",
+          "desc": "SpringとSQLを使用したビッグデータ視覚化ソリューションの開発を支援しました。",
           "className": "md:col-span-2",
           "thumbnail": "/exp1.svg"
         },
@@ -141,23 +141,23 @@
         {
           "id": 2,
           "title": "Mobile Web App Dev - Springboot",
-          "desc": "Designed and developed mobile project for web browser & Android platforms using Springboot.",
+          "desc": "SpringBootを使用して、モバイルプロジェクトを設計および開発しました。",
           "className": "md:col-span-2", 
           "thumbnail": "/exp2.svg"
         },
         "work3" : 
         {
           "id": 3,
-          "title": "Bus Crew App for Data Collection",
-          "desc": "Data cheking website with Java and Developing a service for a crew app using, C and Oracle",
+          "title": "データ収集のためのバス乗務員アプリ",
+          "desc": "JavaでデータをチェックするWebサイトと、CとOracleを使用してクルーアプリのサービスを開発する",
           "className": "md:col-span-2", 
           "thumbnail": "/exp3.svg"
         },
         "work4" : 
         {
           "id": 4,
-          "title": "Backend Developer of Travel Agency Platform",
-          "desc": "Development of travel relay platform service using C and Oracle, new service for relaying bus",
+          "title": "旅行代理店プラットフォームのバックエンド開発者",
+          "desc": "CとOracleを使った旅行中継プラットフォームサービスの開発、バス中継の新サービス",
           "className": "md:col-span-2",
           "thumbnail": "/exp4.svg"
         }
@@ -166,20 +166,20 @@
         "approach1"  :
         {
             "id": 1,
-            "title": "Planning & Strategy",
-            "desc": "I'll discuss things like site structure, navigation, and content requirements."
+            "title": "Finding & Selection",
+            "desc": "新しいプログラミング言語を学び始める前に、興味のある分野を選択し、Google トレンドを使用してその分野で最も人気のある言語やフレームワークを見つけます。"
         },
         "approach2"  :
         {
             "id": 2,
-            "title": "Development & Progress Update",
-            "desc": ""
+            "title": "Development & Doing",
+            "desc": "選択した言語を使用して個人プロジェクトを作成します。バックエンドには CRUD を追加し、フロントエンドには最新のさまざまなライブラリを追加して、個人ホームページを作成します。"
         },
         "approach3"  :
         {
             "id": 3,
-            "title": "Development & Launch",
-            "desc": "I constantly try to improve"
+            "title": "Goal",
+            "desc": "言語やフレームワークにある程度慣れたら、最終的にやりたいと思っていた小さなことをすぐに実装します。"
         }
 
     }  
