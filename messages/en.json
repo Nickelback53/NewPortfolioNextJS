@@ -120,10 +120,19 @@
         {
             "id": 5,
             "title": "NextJs Portfolio",
-            "des": "Using Intersection Observer, notion API, lottie player, portfolio is created by considering design ",
+            "des": "Using Intersection Observer, notion API, lottie player, portfolio is created by considering design.",
             "img": "/project5.png",
             "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/notion.svg"],
             "link": "https://portfolionext-7cloud.vercel.app/"
+        },
+        "project6" :     
+        {
+            "id": 6,
+            "title": "Flutter Hybrid App",
+            "des": "I developed the project using authentication, external API integrations, and Firebase integration.",
+            "img": "/project6.png",
+            "iconLists": ["/flutter.svg"],
+            "link": "https://nickelback53.github.io/flutter_web/"
         }
         
     },

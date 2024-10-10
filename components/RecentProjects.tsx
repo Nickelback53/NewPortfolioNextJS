@@ -7,8 +7,8 @@ import { useTranslations } from 'next-intl'
 
 const RecentProjects = () => {
   const t = useTranslations("Projects");
-  const keys = ['project1', 'project2', 'project3', 'project4', 'project5'] as const;
-//   const keys2 = ['project1.iconList', 'project2.iconList', 'project3.iconList', 'project4.iconList', 'project5.iconList'] as const;
+  const keys = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6'] as const;
+//   const keys2 = ['project1.iconList', 'project2.iconList', 'project3.iconList', 'project4.iconList', 'project5.iconList' , 'project6.iconList'] as const;
 
   return (
     <div className='py-20' id='projects'>

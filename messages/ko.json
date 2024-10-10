@@ -124,7 +124,17 @@
             "img": "/project5.png",
             "iconLists": ["/next.svg", "/tail.svg", "/ts.svg",  "/notion.svg"],
             "link": "https://portfolionext-7cloud.vercel.app/"
+            },
+            "project6" :     
+            {
+                "id": 6,
+                "title": "Flutter Hybrid App",
+                "des": "인증, 외부 api 활용, Firebase 연동 등을 활용하여 만들었습니다.",
+                "img": "/project6.png",
+                "iconLists": ["/flutter.svg"],
+                "link": "https://nickelback53.github.io/flutter_web/"
             }
+            
         
     },
     "workExperience" : 
